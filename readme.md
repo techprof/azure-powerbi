@@ -1,5 +1,5 @@
 <a name="HOLTitle"></a>
-# Using Microsoft Power BI to Explore and Visualize Data #
+# Microsoft Power BI to Explore and Visualize Data #
 
 ---
 
@@ -39,22 +39,9 @@ The following are required to complete this hands-on lab:
 
 ---
 
-<a name="Exercises"></a>
-## Exercises ##
 
-This hands-on lab includes the following exercises:
 
-- [Exercise 1: Connect to a database](#Exercise1)
-- [Exercise 2: Create a data visualization](#Exercise2)
-- [Exercise 3: Add related visualizations](#Exercise3)
-- [Exercise 4: Enhance your visualizations](#Exercise4)
-- [Exercise 5: Publish and share content](#Exercise5)
-- [Exercise 6: Do more with Power BI Desktop](#Exercise6)
- 
-Estimated time to complete this lab: **60** minutes.
-
-<a name="Exercise1"></a>
-## Exercise 1: Connect to a database ##
+## Connect to a database ##
 
 The first step in using Microsoft Power BI to explore and visualize data is to connect to a data source. In this exercise, you will connect to an Azure SQL Server database containing customer, product, and sales data for a fictitious company named Adventure Works.
 
@@ -100,8 +87,8 @@ The first step in using Microsoft Power BI to explore and visualize data is to c
 
 You are now connected to an instance of the Adventure Works database hosted in Azure SQL Data Warehouse. Now it's time to build a report that depicts some of the data in the database.
 
-<a name="Exercise2"></a>
-## Exercise 2: Create a data visualization ##
+
+## Create a data visualization ##
 
 The heart of Power BI is the rich visualizations you can present to the user via dashboards and reports. In this exercise, you will create a report that shows data from one of the tables in the Adventure Works database.
 
@@ -165,8 +152,8 @@ The heart of Power BI is the rich visualizations you can present to the user via
 
 Creating a report from a single table is easy: simply check the fields that you want to display in a visualization. You used a table visualization in this exercise, but there are lots of other visualizations to choose from. Feel free to try other visualizations and experiment with the different ways in which data can be visualized.
 
-<a name="Exercise3"></a>
-## Exercise 3: Add related data visualizations ##
+
+##  Add related data visualizations ##
 
 Now that you know how to create a simple visualization, it's easy to add related visualizations as well as create visualizations of other types. In the previous exercise, you used a table visualization to depict product data. In this exercise, you will work with customer data using table visualizations and map visualizations.
 
@@ -238,8 +225,8 @@ Now that you know how to create a simple visualization, it's easy to add related
 
 The map visualization is a step in right direction toward creating richer visualizations, but your report is still somewhat plain. In the next exercise, you will use some of Power BI's report formatting options to add more flair.
 
-<a name="Exercise4"></a>
-## Exercise 4: Enhance your visualizations ##
+
+## Enhancing visualizations ##
 
 No matter how valuable and relevant your data may be, unless it's presented in a way that's easy to understand and visually appealing, consumers of that data will find it difficult to extract meaning from it. One of the most effective ways to grab a viewer's attention and present data in a meaningful way is to apply formatting and other enhancements to your visualizations. In this exercise, you will enhance the visualizations you have created in order to dress up your report.
 
@@ -331,8 +318,8 @@ No matter how valuable and relevant your data may be, unless it's presented in a
 	
 Feel free to adjust other values as well and try different visualizations to see how the data is presented. When you are satisfied with the formatting changes, the next step is to share your report.
 
-<a name="Exercise5"></a>
-## Exercise 5: Publish and share content ##
+
+## Publish and share content ##
 
 Power BI makes it easy to publish and share your content with users and groups of users, both internal and external to your organization. In this exercise, you will insert the report that you created in previous exercises into a dashboard and learn how to share that dashboard with other Power BI users. The you will see how Power BI's "Publish to Web" feature can be used to share content with external users.
 
@@ -409,8 +396,7 @@ Power BI makes it easy to publish and share your content with users and groups o
 It's that simple to publish and share your Power BI content. If you are working with Power BI on a Windows computer, you can do even more by leveraging Power BI Desktop. If you are running Windows, proceed to Exercise 6. Otherwise, you are finished with this lab.
 
 
-<a name="Exercise6"></a>
-## Exercise 6: Do more with Power BI Desktop ##
+## Power BI Desktop ##
 
 The Power BI Services Portal is both flexible and robust, and since it runs in a browser, it can be accessed from any computer. But if you're a Windows user, you have an even more powerful tool at your disposal: [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). It includes advanced features the portal does not, especially when it comes to query management, visualizations, and modeling. In this exercise, you will use Power BI Desktop to connect to a database, create a table visualization, and add a computed column to the visualization.
 
@@ -502,10 +488,10 @@ The Power BI Services Portal is both flexible and robust, and since it runs in a
 	
 The ability to add measures to a model is just one of the ways in which Power BI Desktop extends what you can do with the Power BI Service Portal. Other features exclusive to Power BI Desktop include calculated columns and calculated tables. Feel free to play around with the model to experiment with these features and learn why Power BI Desktop is the tool of choice for most Power BI experts.
 
-<a name="Summary"></a>
+
 ## Summary ##
 
-In this hands-on lab you learned how to:
+In this hands-on lab I build:
 
 - Connect Power BI to business data
 - Visualize business data in a dashboard
@@ -514,8 +500,3 @@ In this hands-on lab you learned how to:
 - Publish and share Power BI content
 - Use Power BI Desktop to do advanced modeling
 
-There is much more you can do to leverage the power of Power BI, but this is a start. Take time to experiment with other Power BI and Power BI Desktop features, and identify other ways you can enhance your business intelligence by integrating Power BI into your processes.
-
-----
-
-Copyright 2016 Microsoft Corporation. All rights reserved. Except where otherwise noted, these materials are licensed under the terms of the MIT License. You may use them according to the license as is most appropriate for your project. The terms of this license can be found at https://opensource.org/licenses/MIT.
