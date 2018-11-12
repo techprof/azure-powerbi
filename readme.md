@@ -19,7 +19,7 @@ In this lab, you will use Microsoft Power BI to view sales data for a fictitious
 <a name="Objectives"></a>
 ### Objectives ###
 
-In this hands-on lab, you will learn how to:
+In this hands-on lab, I have created:
 
 - Connect Power BI to business data
 - Visualize business data in a dashboard
