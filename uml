@@ -1,0 +1,64 @@
+@startmindmap
+
+* Unity Catalog Permission Model for Azure Databricks Users
+
+** Data Engineer
+*** Can create, modify, and delete objects in the Unity catalog
+**** Tables
+**** Views
+**** Models
+**** Pipelines
+**** Functions
+**** Notebooks
+**** Other objects
+*** Can view objects in the Unity catalog
+*** Can execute notebooks that access the Unity catalog
+
+** Data Analyst
+*** Can view objects in the Unity catalog
+**** Tables
+**** Views
+**** Models
+**** Pipelines
+**** Functions
+**** Notebooks
+**** Other objects
+*** Can execute notebooks that access the Unity catalog
+
+** Analytics Engineer
+*** Can create, modify, and delete objects in the Unity catalog
+**** Tables
+**** Views
+**** Models
+**** Pipelines
+**** Functions
+**** Notebooks
+**** Other objects
+*** Can view objects in the Unity catalog
+*** Can execute notebooks that access the Unity catalog
+
+** System Analyst
+*** Can view objects in the Unity catalog
+**** Tables
+**** Views
+**** Models
+**** Pipelines
+**** Functions
+**** Notebooks
+**** Other objects
+*** Can execute notebooks that access the Unity catalog
+
+** Admins
+*** Can create, modify, and delete objects in the Unity catalog
+**** Tables
+**** Views
+**** Models
+**** Pipelines
+**** Functions
+**** Notebooks
+**** Other objects
+*** Can view objects in the Unity catalog
+*** Can execute notebooks that access the Unity catalog
+*** Can manage permissions for other roles
+
+@endmindmap
